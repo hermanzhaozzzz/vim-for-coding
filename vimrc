@@ -54,3 +54,32 @@ source ~/.vim/setting/vim-quickrun.vim
 " 自定义设置
 source ~/.vim/setting/custome.vim
 set runtimepath^=~/.vim/bundle/ag.vim
+" Python
+" F5一键运行
+map <F5> :call CompileRunGcc()<CR>
+func! CompileRunGcc()
+    exec "w"
+
+    if &filetype == 'c'
+        exec "!g++ % -o %<"
+        exec "!time ./%<"
+    elseif &filetype == 'cpp'
+        exec "!g++ % -o %<"
+        exec "!time ./%<"
+    elseif &filetype == 'java'
+        exec "!javac %"
+        exec "!time java %<"
+    elseif &filetype == 'sh'
+        :!time bash %
+    elseif &filetype == 'python'
+        exec "!time python %"
+    elseif &filetype == 'html'
+        exec "!firefox % &"
+    elseif &filetype == 'go'
+        "exec "!go build %<
+        exec "!time go run %"
+    elseif &filetype == 'mkd'
+         exec "!~/.vim/markdown.pl % > %.html &"
+         exec "!firefox %.html &"
+endif
+    endfunc
