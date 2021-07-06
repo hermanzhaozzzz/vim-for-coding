@@ -1,4 +1,4 @@
-# DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)
+# DOCUMENT FOR [ENGLISH](https://github.com/hermanzhaozzzz/vim-for-coding/blob/master/README_EN.md)
 
 # coding程序猿的专属vimrc配置!
 
@@ -6,7 +6,7 @@
 
 ## 一分钟极速安装 (如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
 ```sh
-curl 'https://gitee.com/lee1989/vim-for-coding/raw/master/install.sh' | sh
+curl 'https://github.com/hermanzhaozzzz/vim-for-coding/raw/master/install.sh' | sh
 ```
 
 ## 极速卸载
