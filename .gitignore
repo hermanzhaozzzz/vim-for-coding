@@ -1,1 +1,9 @@
-.tags
+/.deploy_git/
+/public/
+/.texpadtmp/
+/.Trash/
+/.snakemake/
+.DS_Store
+.Rhistory
+.localized
+slurm-*.out
