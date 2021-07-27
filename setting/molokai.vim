@@ -1,6 +1,6 @@
 " monokai原始背景色
-let g:molokai_original = 1
-"let g:rehash256 = 1
+"let g:molokai_original = 1
+let g:rehash256 = 1
 " Make Vim recognize XTerm escape sequences for Page and Arrow
 " keys combined with modifiers such as Shift, Control, and Alt.
 " See http://www.reddit.com/r/vim/comments/1a29vk/_/c8tze8p
