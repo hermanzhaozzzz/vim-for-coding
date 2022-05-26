@@ -1,10 +1,11 @@
-# DOCUMENT FOR [ENGLISH](https://github.com/hermanzhaozzzz/vim-for-coding/blob/master/README_EN.md)
-
-# coding程序猿的专属vimrc配置!
+# 自用vimrc配置!
+从[原配置](https://github.com/Leptune/vim-for-coding)改动得到的
 
 该vim配置拥有各种大气的被动和主动技能！！
 
 ## 一分钟极速安装 (如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
+
+# 安装
 ```
 curl https://raw.githubusercontent.com/hermanzhaozzzz/vim-for-coding/master/install.sh | sh
 ```
