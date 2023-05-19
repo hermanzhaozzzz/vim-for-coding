@@ -7,9 +7,9 @@ Plugin 'VundleVim/Vundle.vim'
 " -------------------------------插件列表----------------------------------
 " 被动技能
 Plugin 'Shougo/neocomplcache.vim'   " 自动提示
-Plugin 'shawncplus/phpcomplete.vim' " 自动补全php
-Plugin 'alvan/vim-closetag'         " 自动补全html
-Plugin 'joonty/vim-phpqa.git'       " 保存时自动检查php文件有无语法错误
+" Plugin 'shawncplus/phpcomplete.vim' " 自动补全php
+" Plugin 'alvan/vim-closetag'         " 自动补全html
+" Plugin 'joonty/vim-phpqa.git'       " 保存时自动检查php文件有无语法错误
 Plugin 'jiangmiao/auto-pairs'       " 自动补全括号
 Plugin 'vim-airline/vim-airline'    " 状态栏增强
 Plugin 'vim-airline/vim-airline-themes' " 状态栏增强
@@ -30,6 +30,10 @@ Plugin 'thinca/vim-quickrun'        " <Leader>q 运行当前文件
 Plugin 'Lokaltog/vim-easymotion'    " <Leader><Leader>w/b/h/k/j/l 快速跳转
 Plugin 'terryma/vim-multiple-cursors' " ctrl-m 多光标操作
 Plugin 'rking/ag.vim'
+Plugin 'metakirby5/codi.vim'        " The interactive scratchpad for hackers.
+
+
+
 call vundle#end()
 filetype plugin indent on
 

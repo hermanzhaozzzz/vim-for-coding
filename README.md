@@ -1,5 +1,4 @@
 # 自用vimrc配置!
-从[原配置](https://github.com/Leptune/vim-for-coding)改动得到的
 
 该vim配置拥有各种大气的被动和主动技能！！
 
@@ -22,45 +21,47 @@ mv .vimrcbak .vimrc &> /dev/null
 ## 截图（最常用快捷键和功能）
 
 ### 多选 （`<ctrl>m`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/muti_select.gif)
+![img](figures/multi_select.gif)
 
 ---
 
 ### 快速跳转（`,,h/j/k/l`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_jump.gif)
+![img](figures/fast_jump.gif)
 
 ---
 
 ### 快速对齐（`,=`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_align.gif)
+
+![img](figures/fast_align.gif)
 
 ---
 
 ### 快速搜索函数（`,fu`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_search_function.gif)
+
+![img](figures/fast_find.gif)
 
 ---
 
 ### 快速打开文件（`<ctrl>u`：在所有文件中打开，`<ctrl>e`：在最近的文件中打开）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_open_file.gif)
+![img](figures/fast_open.gif)
 
 ---
 
 ### 快速运行文件（`,q`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_run.gif)
+![img](figures/fast_run_file.gif)
 
 ---
 
 ### 自动补全（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/auto_complete.gif)
+![img](figures/auto_fill.gif)
 
 ---
 
 ### 插入模式下快速移动以及php函数提示（`<ctr>b/f/j/k/e/a`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/insert_mode_move_and_php_func_tips.gif)
+![img](figures/fast_move.gif)
 
 ### 浏览文件目录和tags（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/list_dir_function.gif)
+![img](figures/scan_files.gif)
 
 
 ## 被动技能
@@ -147,6 +148,7 @@ mv .vimrcbak .vimrc &> /dev/null
 
 ## 注意事项
 - 该配置参考了 [wklken/vim-for-server](https://github.com/wklken/vim-for-server) 的配置
+- 改配置基本上照抄了[Leptune/vim-for-coding](https://github.com/Leptune/vim-for-coding)，做了少量改动
 - 详细配置，请查看vimrc文件！
 
 ## License
